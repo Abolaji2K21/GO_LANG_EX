@@ -13,6 +13,7 @@ func main() {
 		if userInput < 10000 || userInput > 99999 {
 			fmt.Print("Enter a valid five digits number to check if integer is a palindrome: ")
 			fmt.Println()
+
 		} else {
 			userInput1 := userInput / 10000
 			userInput2 := (userInput / 1000) % 10
